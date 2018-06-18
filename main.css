@@ -1,0 +1,48 @@
+html {
+  background: #EEEEEE;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: content-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  color: #4c4c4c;
+  margin: 20px;
+  border-radius: 4px;
+  background: #FFFFFF;
+  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section-header {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
